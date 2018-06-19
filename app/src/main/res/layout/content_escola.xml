@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.appseep.cursoandroid.appseep.activity.EscolaActivity"
+    tools:showIn="@layout/activity_escola">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circleImageViewFotoGestor"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/padrao"
+            android:layout_weight="0.4"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/textViewGestores"
+                      android:height="20dp"
+                      android:layout_marginBottom="5dp"
+                      android:textSize="13sp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="Gestora/Gestor: "
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:height="20dp"
+                      android:id="@+id/textData_Gestao"
+                      android:layout_marginBottom="5dp"
+                      android:textSize="13sp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="Início da gestão:"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:height="20dp"
+                      android:layout_marginBottom="5dp"
+                      android:id="@+id/textViewGre"
+                      android:textSize="13sp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="GRE: "
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/textViewMunicipio"
+                      android:height="20dp"
+                      android:textSize="13sp"
+                      android:layout_marginBottom="5dp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="Município: "
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/textViewJornada"
+                      android:layout_marginBottom="5dp"
+                      android:height="20dp"
+                      android:textSize="13sp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="Jornada: "
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/textViewFirst"
+                      android:height="20dp"
+                      android:textSize="13sp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="1º ano: "
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/textViewSecond"
+                      android:height="20dp"
+                      android:textSize="13sp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="2º ano: "
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/textViewTerceiro"
+                      android:height="20dp"
+                      android:textSize="13sp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="3º ano: "
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:layout_marginTop="5dp"
+                      android:id="@+id/textTelefone"
+                      android:height="20dp"
+                      android:textSize="13sp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="Telefone:"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:layout_marginTop="5dp"
+                      android:id="@+id/textCelular"
+                      android:height="20dp"
+                      android:textSize="13sp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="Celular:"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/textIdepe"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:height="20dp"
+                      android:textSize="13sp"
+                      android:textColor="@android:color/white"
+                      android:text="IDEPE 2017:"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal">
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/textEndereco"
+                      android:layout_marginTop="5dp"
+                      android:textSize="13sp"
+                      android:height="20dp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/white"
+                      android:text="Endereço:"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- TODO: Update -->
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "86055475062",
+    "firebase_url": "https://appseep-a5da5.firebaseio.com",
+    "project_id": "appseep-a5da5",
+    "storage_bucket": "appseep-a5da5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86055475062:android:1987512db7eaa3bc",
+        "android_client_info": {
+          "package_name": "br.com.appseep.cursoandroid.appseep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86055475062-7tao8fl2a49juiahd1c3gsr8rltcc74h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.appseep.cursoandroid.appseep",
+            "certificate_hash": "a3db2f27f57280178f55e992b5762e768c043c2a"
+          }
+        },
+        {
+          "client_id": "86055475062-j96e55lnl7o4nv4c2u4is6gmr05ms09g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnEvI9xxWo1n7MKbNxhrcmbgqnGBLUodw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86055475062-j96e55lnl7o4nv4c2u4is6gmr05ms09g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

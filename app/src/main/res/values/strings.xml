@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AppSEEP</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="botao_logar">Logar</string>
+    <string name="texto_cadastre">Não tem conta? cadastre-se.</string>
+    <string name="item_config">Configurações</string>
+    <string name="item_sair">Sair</string>
+    <string name="item_pesquisa">Pesquisa</string>
+    <string name="item_adicionar">Adicionar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_escola">EscolaActivity</string>
+    <string name="bt_update_escola">ATUALIZAR</string>
+    <string name="gestor">Gestora/Gestor: %1$s</string>
+    <string name="gre">GRE: %1$s</string>
+    <string name="municipio">Município: %1$s</string>
+    <string name="jornada">Jornada: %1$s</string>
+    <string name="telefone">Telefone: %1$s</string>
+    <string name="ano1">1º ano: %1$s</string>
+    <string name="ano2">2º ano: %1$s</string>
+    <string name="ano3">3º ano: %1$s</string>
+    <string name="data_gestao">Início da gestão: %1$s</string>
+    <string name="celular">Celular: %1$s</string>
+    <string name="idepe">IDEPE 2017: %1$s</string>
+    <string name="endereco">Endereço: %1$s</string>
+
+</resources>
